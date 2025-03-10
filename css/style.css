@@ -33,14 +33,11 @@ p {
 }
 
 header {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: larger;
-  padding-left: 5pt;
-  padding-top: 5pt;
+  color: rgb(255 255 255);
 }
 
 img {
   float: right;
-  width: 40%;
+  height: 200px;
 }
