@@ -12,8 +12,6 @@
   padding-left: 15pt;
   padding-right: 15pt;
   padding-top: 15pt;
-  float: right;
-  height: 200px;
 }
 
 .page-content-php {
@@ -39,3 +37,7 @@ header {
   color: rgb(255 255 255);
 }
 
+img {
+  float: right;
+  height: 200px;
+}
