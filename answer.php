@@ -35,6 +35,9 @@
           <?php echo '<p>The perimeter is: ' . (2 * 5 + 2 * 3) . 'cm</p>'; ?>
         </div>
         <br />
+        <div class="page-content-answer">
+          <a href="./index.php">Return ...</a>
+        </div>
       </main>
     </div>
   </body>
