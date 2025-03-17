@@ -29,7 +29,7 @@
       </div>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/tomato.png" alt="tomato image" />
+          <img src="./images/area_and_perimeter.png" alt="area and perimeter image" />
         </div>
         <div class="page-content">The area and perimeter is ...</div>
         <br />
