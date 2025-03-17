@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<!-- ICS2O-Unit2-02-HTML-MDL -->
+<html lang="en-ca">
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="The Area and Perimeter program,in PHP" />
@@ -23,18 +24,28 @@
           <span class="mdl-layout-title">The Area and Perimeter program,in PHP</span>
         </div>
       </header>
-        <div>
-          <header>The dimensions of a rectangle are: 5cm and 3cm.</header>
-        </div>
+      <div>
+        <header>The dimensions of a rectangle are: 5cm and 3cm.</header>
+      </div>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_and_perimeter.png" alt="area and perimeter image" />
+          <img src="./images/tomato.png" alt="tomato image" />
         </div>
-        <div class="page-content-php">
-          <?php echo '<p>The area is: ' . (5 * 3) . 'cm²</p>'; ?>
-          <?php echo '<p>The perimeter is: ' . (2 * 5 + 2 * 3) . 'cm</p>'; ?>
-        </div>
+        <div class="page-content">The area and perimeter is ...</div>
         <br />
+        <!-- Simple Textfield for integers-->
+        <form action="answer.php" method="GET">
+          <br />
+          <!-- Accent-colored raised button with ripple -->
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            type="submit">
+            Calculate
+          </button>
+        </form>
+        <div class="page-content-answer">
+          <a href="./index.php">Return ...</a>
+        </div>
       </main>
     </div>
   </body>
